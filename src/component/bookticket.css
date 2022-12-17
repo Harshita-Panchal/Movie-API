@@ -1,0 +1,51 @@
+h2 {
+    text-align: center;
+}
+
+.book-ticket {
+    padding: 20px;
+    background-color: #ece9e9;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    padding: 20px;
+}
+
+input {
+    padding: 0 0 0 10px;
+    width: 150px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+.basic div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.book {
+    width: 200px;
+    font-size: 22px;
+}
+
+.bookdiv {
+    width: 200px;
+    margin: auto;
+}
+
+@media (max-width: 749px) {
+
+    .container {
+        width: 100%;
+    }
+}

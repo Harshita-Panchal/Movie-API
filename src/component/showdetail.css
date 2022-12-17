@@ -1,0 +1,32 @@
+.img {
+    height: auto;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.show-detail {
+    display: flex;
+    gap: 200px;
+    padding: 48px 160px;
+    background-color: #ece9e9;
+}
+
+button {
+    width: 150px;
+}
+
+@media (max-width: 749px) {
+    .show-detail {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 0;
+    }
+}
